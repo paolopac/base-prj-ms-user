@@ -103,6 +103,8 @@ ribbon:
 # ==============================================================
 # Security JWT  
 # ===============================================================
+# Note: tale sezione è necessario coincida con la sezione security presente all'interno dell'app 
+# ms-zuul > application-struct1.yml
 security:
   url: /auth/**
   header: Authorization
