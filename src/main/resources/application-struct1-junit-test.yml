@@ -28,7 +28,7 @@ spring:
     initialization-mode: never
     username: msUser
     password: msUser!
-    url: jdbc:mysql://127.0.0.1:3306/Base?useSSL=false&useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://127.0.0.1:13306/Base?useSSL=false&useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     hikari:
       connection-timeout: 40000
       max-lifetime: 40000
