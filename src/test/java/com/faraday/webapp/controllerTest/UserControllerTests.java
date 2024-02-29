@@ -74,7 +74,7 @@ class UserControllerTests {
     .content(data)
     .accept(MediaType.APPLICATION_JSON))
     .andExpect(status().isCreated())
-    .andExpect(jsonPath("$.code").value("200 OK"))
+    .andExpect(jsonPath("$.code").value("201 CREATED"))
     .andExpect(jsonPath("$.message").value("user creato con successo"));
 
     /* TEST CHIAMATA END POINT /user/create CASO EMAIL PRESENTE */

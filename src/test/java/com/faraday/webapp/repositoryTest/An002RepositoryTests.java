@@ -29,7 +29,7 @@ class An002RepositoryTests {
 
   @Order(1)
   void testGetRuoloByCodRuoloAndStato(){
-    An002Ruolo an002Ruolo = an002Repository.getRuoloByCodRuoloAndStato("TRUSTED","E");
+    An002Ruolo an002Ruolo = an002Repository.getRuoloByCodRuoloAndStato("SIMPLE_USER","E");
     assertTrue(an002Ruolo != null);
   }
 
