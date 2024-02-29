@@ -26,9 +26,9 @@ spring:
 # ==============================================================
   datasource:
     initialization-mode: never
-    username: msUser
-    password: 20210821Bp!
-    url: jdbc:mysql://${MySqlIp}:13306/Base?useSSL=false&useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: tarahumaraWS
+    password: 20210821Ta!
+    url: jdbc:mysql://${MySqlIp}:13306/tarahumara?useSSL=false&useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     hikari:
       connection-timeout: 40000
       max-lifetime: 40000
