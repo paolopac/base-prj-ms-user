@@ -2,3 +2,4 @@ logs/micro-service-user-struct1.log
 target/classes/application-struct1.yml
 target/
 logs/
+note/.DS_Store
