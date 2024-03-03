@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.faraday</groupId>
-  <artifactId>USER-MICRO-SERVICE</artifactId>
+  <artifactId>MICRO-SERVICE-USER</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>USER-MICRO-SERVICE</name>
+  <name>MICRO-SERVICE-USER</name>
   <description>Microservice gestione user</description>
 
    <properties>

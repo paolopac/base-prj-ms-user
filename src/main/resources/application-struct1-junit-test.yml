@@ -57,7 +57,7 @@ server:
 # ==============================================================   
 logging:
   file:
-    name: 'logs/user-micro-service-struct1.log'
+    name: 'logs/micro-service-user-struct1.log'
     max-size: 10MB
   # Livello del Log generale
   level:

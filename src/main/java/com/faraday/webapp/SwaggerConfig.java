@@ -21,7 +21,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @SwaggerDefinition(
 		 info = @Info(
-				 title = "user-micro-service", 
+				 title = "micro-service-user", 
 				 version = "0.0.1-SNAPSHOT",
 				 description = "Gestisce le utenze di accesso ai microservizi",
 				 contact = @Contact(

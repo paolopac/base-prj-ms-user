@@ -20,18 +20,18 @@ VOLUME ["/logs"]
 
 RUN apt-get update -y && apt-get install -y locales locales-all
 
-COPY /target/USER-MICRO-SERVICE-0.0.1-SNAPSHOT.jar user-ms.jar
+COPY /target/MICRO-SERVICE-USER-0.0.1-SNAPSHOT.jar th-prj-ms-user.jar
 
-ENTRYPOINT exec java $JAVA_OPTS $Xmx -XX:+UseSerialGC $Xss -jar user-ms.jar
+ENTRYPOINT exec java $JAVA_OPTS $Xmx -XX:+UseSerialGC $Xss -jar th-prj-ms-user.jar
 
 #Generazione Immagine:
-# docker build -t user-ms .
+# docker build -t th-prj-ms-user .
 
 # Upload in dockerhub:
   
 # docker login 
 
-# docker tag 6580e0a93824 paoloacqua/user-ms
+# docker tag 1b2dc3b06d1d33a48e54f1c33441bd82b7ae7f41b12412ad33f5fc8babdf42ef paoloacqua/th-prj-ms-user
 
-# docker push paoloacqua/user-ms
+# docker push paoloacqua/th-prj-ms-user
 
