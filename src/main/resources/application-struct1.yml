@@ -26,9 +26,9 @@ spring:
 # ==============================================================
   datasource:
     initialization-mode: never
-    username: tarahumaraWS
-    password: 20210821Ta!
-    url: jdbc:mysql://${MySqlIp}:13306/tarahumara?useSSL=false&useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: microService
+    password: 20240307Tp!
+    url: jdbc:mysql://${MySqlIp}:3306/tarahumara?useSSL=false&useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     hikari:
       connection-timeout: 40000
       max-lifetime: 40000
@@ -73,7 +73,7 @@ management:
   endpoints:
     web:
       exposure: 
-        include: health, info, shutdown, metrics, mappings
+        include: "*"
     shutdown:
       enabled: true
   endpoint:

@@ -1,3 +1,7 @@
+// Si crei il conteenitore DB mysql
+docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=20210821Ta! mysql  --default_authentication_plugin=mysql_native_password
+// Si installi in locale MYSQL WORKBANCH
+
 utenze storicizzata:
 
 "e-mail": "paoloacqua@hotmail.it",
